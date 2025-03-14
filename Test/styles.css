@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sale{
+    height: 70px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Neutraface Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Neutraface Text'), url('https://fonts.cdnfonts.com/s/60609/Neutraface Text Book.woff') format('woff');
+}
+.main-header{
+    display: flex;
+    background-color: white;
+    height: 100px;
+    font-family: 'Neutraface Text';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Neutraface Text'), url('https://fonts.cdnfonts.com/s/60609/Neutraface Text Book.woff') format('woff');
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+.left-content{
+    
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+   
+}
+.right-content{
+    font: Neutra Text;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.main-header img{
+    justify-self: center;
+    align-items: center;
+}
+#img-plus{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 103px;
+  
+  margin-right: 20px;
+
+}
+
+#img-plus > img{
+    width: 100%;
+}
+
+#john-wick{
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+}
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 445px;
+    left: 75px;
+}
+.input-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    
+}
+
+#search-input{
+    border: 2px solid red;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px ;
+}
+#explore-button{
+    border-radius: 5px;
+    width: 30%;
+    height: 30px;
+    color: white;
+    background-color: red;
+}
