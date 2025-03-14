@@ -58,12 +58,12 @@ header{
   align-items: center;
   justify-content: center;
   width: 103px;
-  
   margin-right: 20px;
-
+ 
 }
 
 #img-plus > img{
+    
     width: 100%;
 }
 
@@ -71,6 +71,7 @@ header{
     object-fit: contain;
     max-width: 100%;
     height: auto;
+    background: rgba(0, 0, 0,0.25);
 }
 .container{
     position: relative;
@@ -79,9 +80,13 @@ header{
     font-family: "Poppins", sans-serif;
 }
 .bottom-left{
+    text-align: left;
     position: absolute;
-    bottom: 445px;
+    bottom: 276px;
     left: 75px;
+}
+#para{
+    width: 30%;
 }
 .input-search{
     display: flex;
@@ -98,8 +103,9 @@ header{
     height: 30px ;
 }
 #explore-button{
+   
     border-radius: 5px;
-    width: 30%;
+    width: 20%;
     height: 30px;
     color: white;
     background-color: red;
